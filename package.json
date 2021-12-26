@@ -3,7 +3,7 @@
   "private": false,
   "version": "0.1.1",
   "description": "",
-  "main": "index.js",
+  "main": "dist/Form/index.js",
   "scripts": {
     "start": "webpack-dev-server",
     "prepare:win": "cross-env BABEL_ENV=minify (if exist dist rd dist /q /s) && md dist && babel src/components -d dist --copy-files",
