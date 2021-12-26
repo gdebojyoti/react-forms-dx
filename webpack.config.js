@@ -28,7 +28,8 @@ module.exports = {
     // file extensions
     extensions: ['.js', '.css'],
     alias: {
-      components: path.resolve(directory, 'src/components')
+      components: path.resolve(directory, 'src/components'),
+      pages: path.resolve(directory, 'src/pages')
     }
   },
   devServer: {
