@@ -9,9 +9,14 @@
     "prepare:win": "cross-env BABEL_ENV=minify (if exist dist rd dist /q /s) && md dist && babel src/components -d dist --copy-files",
     "prepare": "cross-env BABEL_ENV=minify babel src/components -d dist --copy-files"
   },
-  "keywords": [],
-  "author": "Debojyoti Ghosh",
+  "keywords": ["react forms dx", "react forms", "form builder", "form validation"],
+  "author": "Debojyoti Ghosh (https://www.debojyotighosh.com/)",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gdebojyoti/react-forms-dx.git"
+  },
+  "homepage": "https://github.com/gdebojyoti/react-forms-dx",
   "dependencies": {
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
